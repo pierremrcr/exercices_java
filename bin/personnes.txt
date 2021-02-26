@@ -1,0 +1,31 @@
+id   PRENOM            NOM            VILLE              DATE_NAIS  SX METIER     LONGITUDE      LATITUDE
+100, SETH,             ONETTE,        Arnac-La-Poste,     10/05/1980,H,BANQUIER,    1.3752,    46.2660
+101, SARAH,            FRAICHIT,      Chaudes-Aigues,     12/09/1981,F,BARMAN,      3.0047,    44.8553 
+102, MARIE,            ONETTE,        Pantin,             25/12/1988,f,ARTISTE,     2.4072,    48.8981
+103, TAL,              ONETTE,        Glaire,             22/11/1955,H,DANSEUR,     4.9135,    49.7117
+104, AÏCHA,            TOUILLE,       Glaire,             12/11/1959,F,MASSEUR,     4.9135,    49.7117
+105, SACHA,            TOUILLE,       La Mouche,          02/01/1929,H,MASSEUR,    -1.3500,    48.7920
+106, SANDRA,           NICOUP-VERTURE,La Mouche,          02/01/1929,F,ARTISTE,    -1.3504,    48.7920
+107, GUY,              LIGUILI,       La Mouche,          02/02/1949,H,MASSEUR,    -1.3504,    48.7920
+108, ANASTASIE,        GÉNÉRALE,      La Mouche,          02/03/1959,F,INFIRMIER,  -1.3504,    48.7936
+109, MARINE,           ONETTE,        L'Hospitalet,       29/02/1988,F,ARTISTE,     5.6983,    44.0869
+110, JUSTIN,           TITEGOUTTE,    L'Hospitalet,       20/02/1982,H,OENOLOGUE,   5.6983,    44.0869
+111, CORINNE,          ONETTE,        Vinassan,           31/05/1996,F,OENOLOGUE,   3.0745,    43.2027
+112, JUSTINE,          TITEGOUTTE,    Vinassan,           20/06/2000,F,OENOLOGUE,   3.0745,    43.2027
+113, CAMILLE,          ONETTE,        La Prune,           02/08/1992,F,ROUTIER,     1.9517,    45.1864
+114, THIERRY,          GOLO,          La Prune,           02/09/1972,H,ARTISTE,     1.9517,    45.1864
+115, TRISTAN,          GOLO,          Rians,              20/07/1981,H,ARTISTE,     2.6142,    47.1853
+120, KELLY,            DIOTTE,        Andouillé,          20/11/1940,F,POLITICIEN, -0.7850,    48.1623   
+121, TRISTAN,          DOUILLE,       Vire,               12/11/1979,H,ARTISTE,    -0.8892,    48.8741
+122, JEAN-PHILIPPE,    AIRVITE,       Montfroc,           02/07/1999,H,ARTISTE,     5.6397,    44.1642
+123, MEHDI,            KAMENT,        L'Hospitalet,       29/03/1988,H,INFIRMIER,   5.6983,    44.0869
+124, LUCAS,            CATOUMOU,      Sallespisse,        15/07/1998,H,MASSEUR,    -0.7119,    43.5178
+125, EDDY,             DONQUE,        Douala,             04/07/1998,H,POLICIER,    9.7000,     4.0498
+126, EDITH,            HUME-FEDEY,    Bizou,              04/05/1974,F,MASSEUR ,    0.7503,    48.4945
+127, KELLY,            DIOT,          Trécon,             10/01/1940,F,POLITICIEN,  4.0828,    48.8045
+128, SION,             VEUPA-VIVRE,   Hébécrevon,         05/06/1987,F,CROQUE-MORT,-1.1664,    49.1589
+129, JEAN,             DEDUIS-KILLAS, La Trique,          15/06/1979,H,MASSEUR,    -0.8419,    46.9245     
+130, VINCENT,          TIME,          La Chapelle-Faucher,20/02/2000,H,CHOMEUR,     0.7500,    45.3704     
+131, JESSY,            ENRUMAY,       Crotenay,           04/11/1991,H,ROUTIER,     5.7800,    46.7599
+132, ELEONORE-CARELLA, LEUSSU-DOCUT,  Bray-Dune,          09/07/1983,F,CROQUE-MORT, 2.5256,    51.0709
+133, SAGRA,            TOUILLE,       Glaire,             09/07/1973,F,MASSEUR,     4.9135,    49.7117
