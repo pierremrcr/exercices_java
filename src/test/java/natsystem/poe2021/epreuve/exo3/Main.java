@@ -14,7 +14,7 @@ import natsystem.poe2021.epreuve.exo3.exceptions.EntiteException;
 import natsystem.poe2021.epreuve.exo3.exceptions.PersistenceException;
 import natsystem.poe2021.epreuve.exo3.srv.SrvAnalyse;
 
-public class Main2 {
+public class Main {
 
 	private static SrvAnalyse srvAnalyse = SrvAnalyse.getInstance();
 
