@@ -57,8 +57,8 @@ public class Statistique implements Calculable {
 
 	@Override
 	public String toString() {
-		return "Statistiques [min=" + min + ", max=" + max + ", moyenne=" + moyenne + ", mediane=" + mediane
-				+ ", ecartType=" + ecartType + "]";
+		return  " min = " + min + ", max = " + max + ", moyenne = " + moyenne + ", mediane = " + mediane
+				+ ", ecartType = " + ecartType;
 	}
 
 	@Override
