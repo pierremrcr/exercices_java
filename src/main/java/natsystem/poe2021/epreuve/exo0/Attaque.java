@@ -5,14 +5,14 @@ public class Attaque {
 
 
 	private static final String CHAINE_VIDE = " ";
-	private static final String MÊME_PAS_MAL = "Même pas mal";
-	private static final String ÇA_SUFFIT_ARRÊTE = "ça suffit, arrête !";
+	private static final String MEME_PAS_MAL = "M�me pas mal";
+	private static final String CA_SUFFIT_ARRETE = "�a suffit, arr�te !";
 	private static final String INCONNU = "?";
-	private static final String AÏE = "aïe !";
+	private static final String AIE = "a�e !";
 	private static final String PAF = "paf !";
 
 	public static String coup(String coup) {
-		return PAF.equals(coup) ? AÏE : INCONNU;
+		return PAF.equals(coup) ? AIE : INCONNU;
 	}
 
 	public static String coup(int nombreAttaques, String coup) {
@@ -28,13 +28,13 @@ public class Attaque {
 
 
 		if (compteur == 3 || compteur == 4) {
-			return PAF.equals(coup) ? ÇA_SUFFIT_ARRÊTE : INCONNU;
+			return PAF.equals(coup) ? CA_SUFFIT_ARRETE : INCONNU;
 
 		} else if (compteur >= 5) {
-			return PAF.equals(coup) ? CHAINE_VIDE : MÊME_PAS_MAL;
+			return PAF.equals(coup) ? CHAINE_VIDE : MEME_PAS_MAL;
 
 		} else {
-			return PAF.equals(coup) ? AÏE : INCONNU;
+			return PAF.equals(coup) ? AIE : INCONNU;
 		}
 
 
