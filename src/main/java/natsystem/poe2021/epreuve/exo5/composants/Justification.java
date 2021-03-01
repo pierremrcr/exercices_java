@@ -4,5 +4,4 @@ public enum Justification {
 	GAUCHE,
 	CENTRE,
 	DROIT
-
 }

@@ -1,20 +1,20 @@
 package natsystem.poe2021.epreuve.exo5.composants;
 
 public class StringAlignement {
-	
+
 	private Justification justification;
 	private String separateur;
 	private int lgMaxSansSeparateur;
 	private int lgMaxAvecSeparateur;
-	
-	
+
+
 	public StringAlignement(Justification justification, int lgMaxSansSeparateur) {
 		super();
 		this.justification = justification;
 		this.lgMaxSansSeparateur = lgMaxSansSeparateur;
 	}
-	
-	
+
+
 	public StringAlignement(Justification justification, String separateur, int lgMaxSansSeparateur) {
 		super();
 		this.justification = justification;
@@ -47,11 +47,21 @@ public class StringAlignement {
 	public void setLgMaxAvecSeparateur(int lgMaxAvecSeparateur) {
 		this.lgMaxAvecSeparateur = lgMaxAvecSeparateur;
 	}
-	
-	public String format (String chaine) {
-		return null;
-	}
-	
-	
 
+	public String format (String chaine) {
+		String resultat = null;
+		switch(justification){
+		case CENTRE :
+			resultat = separateur + StringComponent.fill(lgMaxSansSeparateur/2, ' ') + chaine + StringComponent.fill(lgMaxSansSeparateur/2, ' ') + separateur;
+			break;
+		case GAUCHE :
+			resultat = separateur + chaine + StringComponent.fill(lgMaxSansSeparateur, ' ') + separateur;
+			break;
+		case DROIT :
+			resultat = separateur + StringComponent.fill(lgMaxSansSeparateur, ' ') + chaine + separateur;
+			break;
+		}
+
+		return resultat;
+	}
 }
